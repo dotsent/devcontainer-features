@@ -1,0 +1,10 @@
+{
+    "install_specific_version": {
+        "image": "debian:bookworm",
+        "features": {
+            "websocat": {
+                "version": "1.12.0"
+            }
+        }
+    }
+}

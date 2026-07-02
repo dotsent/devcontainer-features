@@ -1,0 +1,18 @@
+{
+  "id": "websocat",
+  "version": "1.0.0",
+  "name": "websocat",
+  "description": "Installs websocat — a WebSocket client CLI. Arch-aware: supports aarch64 and x86_64.",
+  "documentationURL": "https://github.com/vi/websocat",
+  "licenseURL": "https://github.com/vi/websocat/blob/master/LICENSE",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "1.13.0",
+      "description": "websocat release version to install"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
