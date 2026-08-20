@@ -1,0 +1,10 @@
+/.feature-package/
+/src/mcp-grafana/SHA256SUMS
+/src/mcp-grafana/bin/
+/src/mcp-grafana/third-party/
+/src/migrate/SHA256SUMS
+/src/migrate/bin/
+/src/migrate/third-party/
+/src/promtool/SHA256SUMS
+/src/promtool/bin/
+/src/promtool/third-party/

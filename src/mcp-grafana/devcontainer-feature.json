@@ -1,0 +1,8 @@
+{
+  "id": "mcp-grafana",
+  "version": "1.0.0",
+  "name": "Grafana MCP",
+  "description": "Installs the official Grafana MCP server for read-only or full observability workflows.",
+  "documentationURL": "https://github.com/dotsent/devcontainer-features/tree/main/src/mcp-grafana",
+  "licenseURL": "https://github.com/grafana/mcp-grafana/blob/main/LICENSE"
+}

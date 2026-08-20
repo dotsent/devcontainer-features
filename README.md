@@ -4,6 +4,42 @@ A collection of reusable [Dev Container Features](https://containers.dev/impleme
 
 ## Features
 
+### `mcp-grafana`
+
+Installs the official Grafana MCP server v0.14.0 for Linux `amd64` and `arm64`.
+
+```json
+{
+  "features": {
+    "ghcr.io/dotsent/devcontainer-features/mcp-grafana:1": {}
+  }
+}
+```
+
+### `migrate`
+
+Installs the `golang-migrate` CLI v4.18.2 for Linux `amd64` and `arm64`.
+
+```json
+{
+  "features": {
+    "ghcr.io/dotsent/devcontainer-features/migrate:1": {}
+  }
+}
+```
+
+### `promtool`
+
+Installs the Prometheus `promtool` CLI v3.12.0 for Linux `amd64` and `arm64`.
+
+```json
+{
+  "features": {
+    "ghcr.io/dotsent/devcontainer-features/promtool:1": {}
+  }
+}
+```
+
 ### `websocat`
 
 Installs [websocat](https://github.com/vi/websocat) — a command-line WebSocket client — from GitHub releases. Works on `amd64` and `arm64` (Apple Silicon / OrbStack).
@@ -15,7 +51,7 @@ In your `devcontainer.json`:
 ```json
 {
   "features": {
-    "ghcr.io/<your-org>/devcontainer-features/websocat:1": {}
+    "ghcr.io/dotsent/devcontainer-features/websocat:1": {}
   }
 }
 ```
@@ -25,7 +61,7 @@ To pin a specific version:
 ```json
 {
   "features": {
-    "ghcr.io/<your-org>/devcontainer-features/websocat:1": {
+    "ghcr.io/dotsent/devcontainer-features/websocat:1": {
       "version": "1.12.0"
     }
   }

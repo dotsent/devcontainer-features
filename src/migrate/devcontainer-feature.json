@@ -1,0 +1,8 @@
+{
+  "id": "migrate",
+  "version": "1.0.0",
+  "name": "golang-migrate",
+  "description": "Installs the official golang-migrate database migration CLI.",
+  "documentationURL": "https://github.com/dotsent/devcontainer-features/tree/main/src/migrate",
+  "licenseURL": "https://github.com/golang-migrate/migrate/blob/master/LICENSE"
+}

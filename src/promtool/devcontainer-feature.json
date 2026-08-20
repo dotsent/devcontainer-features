@@ -1,0 +1,8 @@
+{
+  "id": "promtool",
+  "version": "1.0.0",
+  "name": "Prometheus promtool",
+  "description": "Installs the official Prometheus CLI for validating rules and configuration.",
+  "documentationURL": "https://github.com/dotsent/devcontainer-features/tree/main/src/promtool",
+  "licenseURL": "https://github.com/prometheus/prometheus/blob/main/LICENSE"
+}
