@@ -17,6 +17,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prepare bundled Feature assets
+        run: scripts/prepare-feature-assets.sh
+
+      - name: Test bundled Feature installers
+        run: scripts/test-feature-installers.sh
+
       - name: Publish Features
         uses: devcontainers/action@v1
         env:
