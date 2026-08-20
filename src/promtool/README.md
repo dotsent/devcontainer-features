@@ -1,24 +1,20 @@
-# Prometheus promtool Dev Container Feature
 
-Installs the official [`promtool`](https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/#syntax-checking-rules)
-binary into `/usr/local/bin`.
+# Prometheus promtool (promtool)
 
-The Feature bundles static Linux binaries for `amd64` and `arm64`, so the
-target devcontainer does not need Go, Docker, or access to GitHub Releases
-during its build.
+Installs the official Prometheus CLI for validating rules and configuration.
+
+## Example Usage
 
 ```json
-{
-  "features": {
+"features": {
     "ghcr.io/dotsent/devcontainer-features/promtool:1": {}
-  }
 }
 ```
 
-Validate a Prometheus rule file with:
 
-```sh
-promtool check rules path/to/rules.yaml
-```
 
-This Feature installs `promtool` v3.12.0.
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/dotsent/devcontainer-features/blob/main/src/promtool/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
